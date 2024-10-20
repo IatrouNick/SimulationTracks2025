@@ -7,6 +7,7 @@ using System.Security.Cryptography;
 /// </summary>
 public static class Utilities
 {
+    public static byte[] key;
     /// <summary>
     /// Encrypts a plaintext message.
     /// </summary>
