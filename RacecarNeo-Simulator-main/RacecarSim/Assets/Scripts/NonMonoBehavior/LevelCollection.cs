@@ -1109,7 +1109,7 @@ public class LevelCollection
                     DisplayName = "(Greece) Grand Prix 2025",
                     BuildIndex = 127,
                     IsRaceable = true,
-                    NumCheckpoints = 4,
+                    NumCheckpoints = 3,
                     MaxCars = 4,
                     AutograderBuildIndex = 127,
                     AutograderLevelCode = "final",
