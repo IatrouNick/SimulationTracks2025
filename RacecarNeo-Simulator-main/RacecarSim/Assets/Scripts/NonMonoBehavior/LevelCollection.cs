@@ -1111,19 +1111,6 @@ public class LevelCollection
                     IsRaceable = true,
                     NumCheckpoints = 3,
                     MaxCars = 4,
-                    AutograderBuildIndex = 127,
-                    AutograderLevelCode = "final",
-                    AutograderLevels = new AutograderLevelInfo[]
-                    {
-                        new AutograderLevelInfo()
-                        {
-                            Title = "Grand Prix 2025",
-                            Description = "Navigate through the course.",
-                            MaxPoints = 25,
-                            TimeLimit = 360,
-                            TimeBonuses = new Vector2[]{ new Vector2(105, 3), new Vector2(120, 2), new Vector2(150, 1), new Vector2(180, 0), new Vector2(240, -1), new Vector2(300, -3), new Vector2(float.PositiveInfinity, -5) }
-                        }
-                    }
                 },
             }
         },

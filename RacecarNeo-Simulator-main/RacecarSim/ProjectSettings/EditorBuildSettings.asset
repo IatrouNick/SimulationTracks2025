@@ -389,9 +389,6 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Community/Final_GrandPrix2025.unity
     guid: c37b6efc7a5a87d4ba0c48cb2aaf60ee
-  - enabled: 0
-    path: 
-    guid: 00000000000000000000000000000000
   - enabled: 1
     path: Assets/Scenes/Community/FinalAutograder/FinalAutograder_TimeTrial2025.unity
     guid: d11ca6cb9ef0ab84a949d2a082f6771c
