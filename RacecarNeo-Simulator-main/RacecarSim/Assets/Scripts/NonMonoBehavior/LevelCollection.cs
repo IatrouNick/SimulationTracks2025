@@ -1086,7 +1086,7 @@ public class LevelCollection
             Levels = new LevelInfo[]
             {
                  new LevelInfo()
-                {
+                 {
                     DisplayName = "(Greece) Time Trial 2025",
                     BuildIndex = 126,
                     IsRaceable = true,
@@ -1101,17 +1101,10 @@ public class LevelCollection
                             Description = "Navigate through the course.",
                             MaxPoints = 25,
                             TimeLimit = 300,
-                            TimeBonuses = new Vector2[]{ new Vector2(75, 3), new Vector2(90, 2), new Vector2(120, 1), new Vector2(150, 0), new Vector2(180, -1), new Vector2(240, -3), new Vector2(float.PositiveInfinity, -5) }
+                            TimeBonuses = new Vector2[]{ new Vector2(85, 3), new Vector2(100, 2), new Vector2(130, 1), new Vector2(160, 0), new Vector2(190, -1), new Vector2(250, -3), new Vector2(float.PositiveInfinity, -5) }
                         }
                     }
-                },new LevelInfo()
-                {
-                    DisplayName = "(Greece) Grand Prix 2025",
-                    BuildIndex = 127,
-                    IsRaceable = true,
-                    NumCheckpoints = 3,
-                    MaxCars = 4,
-                },
+                 }
             }
         },
     };
