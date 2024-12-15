@@ -1104,7 +1104,15 @@ public class LevelCollection
                             TimeBonuses = new Vector2[]{ new Vector2(85, 3), new Vector2(100, 2), new Vector2(130, 1), new Vector2(160, 0), new Vector2(190, -1), new Vector2(250, -3), new Vector2(float.PositiveInfinity, -5) }
                         }
                     }
-                 }
+                 },
+                 new LevelInfo()
+                 {
+                    DisplayName = "(Greece) Grand Prix 2025",
+                    BuildIndex = 127,
+                    IsRaceable = true,
+                    NumCheckpoints = 4,
+                    MaxCars = 4,
+                 },
             }
         },
     };

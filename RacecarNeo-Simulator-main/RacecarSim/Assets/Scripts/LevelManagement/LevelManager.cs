@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Linq;
+using UnityEditorInternal;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
@@ -262,6 +263,20 @@ public class LevelManager : MonoBehaviour
         Rigidbody carRigidBody = LevelManager.instance.players[carIndex].GetComponent<Rigidbody>();
         carRigidBody.velocity = Vector3.zero;
         carRigidBody.angularVelocity = Vector3.zero;
+    }
+
+    /// <summary>
+    /// Reduce the speed of the car to half.
+    /// </summary>
+    /// <param name="carIndex">The index of the car to slow down.</param>
+    public static void SlowDown(int carIndex, float maxSpeed = 10)
+    {
+        // Slow the speed of the car if its above the specified limit
+        Rigidbody carRigidBody = LevelManager.instance.players[carIndex].GetComponent<Rigidbody>();
+        if (carRigidBody.velocity.magnitude > maxSpeed) 
+        {
+            carRigidBody.velocity = carRigidBody.velocity * 0.5f;
+        }
     }
 
     /// <summary>
