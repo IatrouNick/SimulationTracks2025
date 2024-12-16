@@ -268,7 +268,7 @@ public class LevelManager : MonoBehaviour
     /// Reduce the speed of the car to half.
     /// </summary>
     /// <param name="carIndex">The index of the car to slow down.</param>
-    public static void SlowDown(int carIndex, float maxSpeed = 10)
+    public static void SlowDown(int carIndex, float maxSpeed)
     {
         // Slow the speed of the car if its above the specified limit
         Rigidbody carRigidBody = LevelManager.instance.players[carIndex].GetComponent<Rigidbody>();
